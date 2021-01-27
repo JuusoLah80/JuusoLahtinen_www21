@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name= "description" content="This is my first go at making web pages. It's done for an school exercise.">
     <title>First page by Juuso</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10;
+            color: darkblue;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Juuso's first web page!</h1>
+    <h1 style="border-bottom:5px solid red; color:red; font-size: 16;">Juuso's first web page!</h1>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="aboutus.html">About us</a></li>
@@ -19,8 +29,11 @@
     <p>Now there's <b>2 links</b> to different pages.</p>
     <img src="images\DarthVaderAvatar (2018_06_11 16_07_21 UTC).jpg" alt="Nice avatar for Darth Vader" height="250px" width="250px"/>
     <article>
+            <figure>
+                <img alt="Picture of nice mountainside." height="360px" width="240px" src="images\mountainJPEG.jpg"/>
+                <figcaption> Picture of nice mountainside.</figcaption>
+            </figure>
         <h2>A great heading!</h2>
-        <img style="float: right;" alt="Picture of nice mountainside." height="360px" width="240px" src="images\mountainJPEG.jpg"/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in elit sed purus auctor luctus. 
             Vivamus consequat purus sapien, non fringilla metus tempor non. 
             Phasellus rutrum diam eu eros tempus, at auctor elit facilisis. 
@@ -33,6 +46,9 @@
             Vestibulum congue enim velit, ut cursus elit viverra lobortis. 
             Sed sit amet neque fermentum, tempor est eget, volutpat nunc. Morbi sit amet nunc lorem. Curabitur sit amet enim ex.</p>
     </article>
+    <iframe width="500px" height="500px" src="https://www.youtube.com/embed/i83lYAVP7Qo?autoplay=0">
+    </iframe>
+    <video src="images/RuneLite - Core61 2021-01-27 03-20-11.mp4" controls width="600" height="300"></video>
     <address>
         Hämeen ammattikorkeakoulu HAMK<br>
         PL 230 13101 Hämeenlinna

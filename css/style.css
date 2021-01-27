@@ -1,0 +1,16 @@
+a:hover {
+    background-color: yellow;
+    }
+a {
+    text-decoration: underline;
+}
+ figure {
+    float: right;
+    margin: 20px;
+} 
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
